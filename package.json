@@ -1,9 +1,9 @@
 {
   "name": "ts-lists",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Typescript LinkedList and Queue",
-  "main": "/build/index.js",
-  "types": "/build/index.d.ts",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
   "files": [
     "/build/**/*"
   ],
