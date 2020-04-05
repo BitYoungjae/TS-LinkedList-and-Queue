@@ -1,5 +1,19 @@
 # TS-LinkedList-and-Queue
 
+Typescript LinkedList and Queue
+
+## Install
+
+```shell
+npm i ts-lists
+```
+
+## Import
+
+```typescript
+import { LinkedLIst, Queue } from 'ts-lists';
+```
+
 ## Declarations
 
 ### LinkedList
@@ -38,3 +52,9 @@ export declare class Queue<T> {
   get isEmpty(): boolean;
 }
 ```
+
+## Author
+
+- name : Youngjae Joo
+- email : bityoungjae@gmail.com
+- homepage : https://bityoungjae.com
