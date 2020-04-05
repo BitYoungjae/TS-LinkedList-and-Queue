@@ -1,7 +1,7 @@
 {
   "name": "ts-lists",
   "version": "1.0.0",
-  "description": "",
+  "description": "Typescript LinkedList and Queue",
   "main": "./build/index.js",
   "directories": {
     "test": "tests"
@@ -10,9 +10,20 @@
     "test": "jest",
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "linkedlist",
+    "queue"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BitYoungjae/TS-LinkedList-and-Queue.git"
+  },
+  "author": {
+    "name": "Youngjae Joo",
+    "email": "bityoungjae@gmail.com",
+    "url": "https://bityoungjae.com"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^25.2.1",
     "@types/node": "^13.11.0",
