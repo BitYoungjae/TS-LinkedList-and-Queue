@@ -1,0 +1,23 @@
+{
+  "name": "ts-lists",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.11.0",
+    "jest": "^25.2.7",
+    "ts-jest": "^25.3.1",
+    "typescript": "^3.8.3"
+  }
+}
