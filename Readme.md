@@ -34,6 +34,7 @@ export declare class LinkedList<T> {
   insert(value: T, index?: number): void;
   protected indexValidation(index: number): void;
   clear(): void;
+  [Symbol.iterator](): Generator<T>;
   get isEmpty(): boolean;
 }
 ```
@@ -50,6 +51,7 @@ export declare class Queue<T> {
   get front(): T;
   get back(): T;
   get isEmpty(): boolean;
+  [Symbol.iterator](): Generator<T>;
 }
 ```
 
