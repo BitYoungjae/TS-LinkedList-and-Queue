@@ -144,6 +144,17 @@ export class LinkedList<T> {
     this.internalSize = 0;
   }
 
+  public *[Symbol.iterator](): Generator<T> {
+    let now: ListNode<T> = this.head;
+
+    while (now.next) {
+      yield now.value;
+      now = now.next;
+    }
+
+    yield now.value;
+  }
+
   public get isEmpty(): boolean {
     return this.size === 0 ? true : false;
   }
