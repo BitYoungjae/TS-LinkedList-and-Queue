@@ -30,4 +30,8 @@ export class Queue<T> {
   public get isEmpty(): boolean {
     return this.list.isEmpty;
   }
+
+  public [Symbol.iterator](): Generator<T> {
+    return this.list[Symbol.iterator]();
+  }
 }
