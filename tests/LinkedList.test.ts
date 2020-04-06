@@ -26,4 +26,10 @@ describe('Core Tests', () => {
     list.insert(5, list.size - 1);
     expect(list.remove(list.size - 1)).toBe(5);
   });
+
+  it('remove from list.size - 1', () => {
+    const arr = [...list];
+    expect(arr.length).toBe(3);
+    expect(arr[0]).toBe(1);
+  });
 });
